@@ -1,0 +1,88 @@
+.carouselDiv {
+    background-color: #007737;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.carouselItems {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding: 46px 104px 60px 104px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.c_item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 86px 60px 20px 60px;
+    line-height: 16px;
+}
+.c_item p {
+    margin: 0px;
+}
+.c_item .head {
+    font-family: 'Lasiver-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.c_item .body {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight:300;
+    margin-bottom: 20px;
+    line-height: 26px;
+    height: 200px;
+}
+.c_item .star {
+    width: 15px;
+    margin-right: 5px;
+}
+.c_item .user {
+    margin-right: 15px;
+    width: 30px;
+}
+.c_item .footer {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight:300;
+    display: flex;
+    align-items: center;
+}
+.scroll {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+
+}
+
+.scrollItem {
+    background-color: #eee;
+    border-radius: 50px;
+    width: 16px;
+    margin: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.vh {
+    visibility: hidden;
+}
+
+@media(max-width:600px) {
+    .c_item{
+        margin: 6px;
+    }
+    .carouselItems {
+        padding: 0;
+    }
+    .c_item .body {
+        width: 32.8rem;
+        height: 20rem;
+    }
+    .OurPatientsLoveUs {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    
+}

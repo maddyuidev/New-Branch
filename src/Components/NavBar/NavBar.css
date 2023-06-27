@@ -1,0 +1,159 @@
+.TopNav {
+  height: 20px;
+  background-color: #004c2a;
+}
+
+.TopNav ul{
+  margin: 0px;
+  display: flex;
+  justify-content: end;
+  line-height: 20px;
+  padding: 0px 10px;
+}
+.TopNav ul li{
+  list-style-type: none;
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 9.5px;
+  font-weight: 700;
+  cursor: pointer;  
+  letter-spacing: .2px;
+}
+
+
+
+.MainNav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E6E6E6;
+}
+.MainNav .MainNavLeft {
+  display: flex;
+}
+.MainNav .LogoImgDiv {
+  display: flex;
+  align-items: center;
+}
+.MainNav .LogoImg {
+  margin: 0px 20px;
+  width: 40px;
+}
+.MainNav .downarrow  {
+  width: 11px;
+  padding-left: 4px;
+  font-weight: 700;
+}
+.MainNav .deliverycurbsidesvg {
+  width: 16px;
+  padding-left: 4px;
+}
+.MainNav .ShoppingList,
+.MainNav .Cart {
+  width: 16px;
+  padding-right: 4px;
+  height: 3.3rem;
+}
+.inputDiv {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.inputDiv img {
+  position: absolute;
+  right: 10px;
+  width: 12px;
+}
+.MainNav input {
+  height: 25px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #999;
+  padding: 3px 14px;
+  font-size: 10px;
+  letter-spacing: .2px;
+}
+
+.MainNav .MainNavLeft ul{
+  margin: 0px;
+  line-height: 32px;
+  padding: 0px 10px;
+  display: flex;
+  /* margin-top: 10px; */
+}
+.MainNav .MainNavLeft ul li{
+  list-style-type: none;
+  color: #004C2A;
+  padding: 0px 5px;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  letter-spacing: .2px;
+}
+.MainNav .MainNavRight ul{
+  margin: 0px;
+  line-height: 32px;
+  padding: 0px 10px;
+  display: flex;
+  /* margin-top: 10px; */
+}
+.MainNav .MainNavRight ul li{
+  list-style-type: none;
+  color: #004C2A;
+  padding: 0px 5px;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  letter-spacing: .2px;
+}
+.MainNavRight .login ,
+.MainNavRight .signup {
+  border-radius: 8px;
+  border: unset;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px 10px;
+  letter-spacing: .2px;
+  cursor: pointer;  
+}
+.MainNavRight .login {
+  background-color: #d5e6cf;
+  color: #1b4d08;
+}
+.MainNavRight .signup {
+  background-color: #2D810E;
+  color: #fff;
+}
+.MainNavRight p {
+  margin: 0px;
+  text-align: end;
+  padding-right: 15px;
+  color: #2d810e;
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 10px;
+  cursor: pointer;  
+}
+.navbar-toggler-icon{
+    background-image: var(--bs-navbar-toggler-icon-bg);
+  /* --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e); */
+}
+@media(max-width:600px) {
+  .searchSection, .MainNavRight, .TopNav{
+    display: none;
+  }
+  .MainNav {
+    margin-bottom: 2rem;
+  }
+  .navbar-collapse {
+    position: absolute;
+    top: 5.6rem;
+    right: 4rem;
+  }
+  
+}

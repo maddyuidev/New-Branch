@@ -1,0 +1,186 @@
+$color_1: C#fff;
+$color_2: #007737;
+$color_3: #1d2f28;
+$font-family_1: 'Lasiver-Medium';
+$font-family_2: 'Inter';
+$background-color_1: #f0f0f0;
+$background-color_2: #007737;
+
+.CareWhenYouNeedIt {
+	display: flex;
+}
+.CareWhenYouNeedItRight {
+	display: flex;
+	justify-content: flex-end;
+	img {
+		width: 90%;
+		height: 90%;
+		margin-top: 5%;
+	}
+}
+.CareWhenYouNeedItLeft {
+	.btnDiv {
+		margin-top: 30px;
+	}
+	.TelemedicineAppointment {
+		background: #007737;
+		border: 1.5px solid #007737;
+		color: $color_1;
+		margin-right: 20px;
+		padding: 1rem 1.2rem;
+		border-radius: 5px;
+		cursor: pointer;
+		letter-spacing: .2px;
+		font-size: 1.5rem;
+		font-family: $font-family_1;
+	}
+	.PrescriptionRefill {
+		background: #fff;
+		border: 1.5px solid #007737;
+		color: $color_2;
+		margin-right: 20px;
+		padding: 1rem 1.2rem;
+		border-radius: 5px;
+		cursor: pointer;
+		letter-spacing: .2px;
+		font-size: 1.5rem;
+		font-family: $font-family_1;
+	}
+}
+.CareSavingDiv {
+	display: flex;
+	margin-top: 3rem;
+}
+.CareSavingCard {
+	width: 30%;
+}
+.CareSavingList {
+	padding-left: 4.4rem;
+	ul {
+		margin: 0px;
+		li {
+			list-style-type: none;
+			padding-bottom: 0.5rem;
+			font-family: $font-family_2;
+			font-size: 1.7rem;
+			display: flex;
+			img {
+				padding-right: 10px;
+			}
+			span {
+				font-weight: 600;
+			}
+		}
+	}
+}
+.CareCardImg {
+	img {
+		width: 100%;
+	}
+}
+.CareCardDetails {
+	border-radius: 10px;
+	.CareCardTop {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px 16px;
+		background-color: $background-color_1;
+		border-radius: 10px 10px 0px 0px;
+		img {
+			width: 30px;
+		}
+		.text {
+			font-size: 11px;
+			color: $color_3;
+			font-weight: 500;
+		}
+	}
+	.CareCardBottom {
+		background-color: $background-color_2;
+		border-radius: 0px 0px 10px 10px;
+		display: flex;
+		justify-content: space-between;
+		padding: 12px;
+	}
+}
+.CareCardBottomLeft {
+	ul {
+		margin: 0px;
+		padding: 0px;
+		li {
+			list-style-type: none;
+			font-size: 9px;
+			color: $color_1;
+			letter-spacing: 0.5px;
+		}
+	}
+}
+.CareCardBottomRight {
+	.span1 {
+		color: $color_1;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
+	}
+	.span2 {
+		color: $color_1;
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 24px;
+	}
+}
+@media (max-width: 600px) {
+	.CareSavingList {
+		padding-left: 0;
+		ul {
+			li {
+				font-size: 1rem;
+			}
+		}
+	}
+	.CareWhenYouNeedItLeft {
+		.TelemedicineAppointment {
+			margin-right: 1rem;
+			font-size: 1.1rem;
+		}
+		.PrescriptionRefill {
+			margin-right: 1rem;
+			font-size: 1.1rem;
+		}
+		.title {
+			padding-left: 3rem;
+		}
+		.subtitle {
+			padding-left: 3rem;
+		}
+		.btnDiv {
+			padding-left: 3rem;
+		}
+	}
+	.DoctorWillSeeYou {
+		.title1 {
+			padding: 0 20px;
+		}
+		.subtitle {
+			padding: 0 20px;
+		}
+	}
+	.CareWhenYouNeedIt {
+		padding: 0;
+		height: 67.5rem;
+	}
+	.CareWhenYouNeedItRight {
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
+	.CareSavingDiv {
+		position: relative;
+		top: -8.6rem;
+		left: 4rem;
+	}
+	.CareSavingCard {
+		width: 43%;
+	}
+}

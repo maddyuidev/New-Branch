@@ -1,0 +1,2 @@
+export const TopNavList = ['Catering', 'Gift Cards', 'Order Sushi', 'Order Subs', 'Weekly Ad', 'Pharmacy'];
+export const MainNavList = ['Savings', 'Order Ahead', 'Catering', 'Delivery & Curbside', 'Weekly Ad'];

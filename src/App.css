@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: 'Lasiver-Medium';
+  src: url('./Assests/font/Lasiver\ Medium.woff.ttf') format('truetype');
+}
+
+section {
+  padding: 60px;
+}
+
+.title {
+  font-family: 'Lasiver-Medium';
+  margin: 0px;
+  font-size: 5.4rem;
+  color: #1D2F28;
+  margin-bottom: 20px;
+}
+.title1 {
+  font-family: 'Lasiver-Medium';
+  margin: 0px;
+  font-size: 34px;
+  color: #1D2F28;
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #1D2F28;
+  font-family: Inter;
+}
+@media(max-width:600px) {
+  .title1{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+  .title{
+    font-size: 2.9rem;
+  }
+  section {
+    padding: 20px;
+  }
+  .OurPatientsLoveUs .title1 {
+    padding-left: 2rem;
+  }
+}

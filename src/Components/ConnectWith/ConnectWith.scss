@@ -1,0 +1,93 @@
+$color_1: #1D2F28;
+$color_2: #fff;
+$font-family_1: 'Lasiver-Medium';
+$font-family_2: 'Inter';
+$background-color_1: #F3F3F3;
+$background-color_2: #fff;
+$background-color_3: #007737;
+
+.ConnectWithDiv {
+	background-color: $background-color_1;
+	border-radius: 10px;
+	margin-top: 40px;
+	padding: 80px;
+}
+.Cards {
+	display: flex;
+	justify-content: space-between;
+}
+.CardItem {
+	width: 25%;
+	background-color: $background-color_2;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 0px 10px;
+	img {
+		width: 25px;
+	}
+	.head {
+		font-size: 18px;
+		font-family: $font-family_1;
+		color: $color_1;
+		margin-bottom: 20px;
+	}
+	.content {
+		font-size: 18px;
+		font-family: $font-family_2;
+		color: $color_1;
+		line-height: 30px;
+		height: 160px;
+	}
+	.footer {
+		font-size: 18px;
+		font-family: $font-family_2;
+		color: $color_1;
+		margin-bottom: 20px;
+	}
+	button {
+		background-color: $background-color_3;
+		border: unset;
+		border-radius: 10px;
+		color: $color_2;
+		font-size: 18px;
+		width: 100%;
+		padding: 10px;
+		font-weight: 500;
+		cursor: pointer;
+	}
+}
+@media (max-width:600px) {
+	.ConnectWith {
+		.title1 {
+			padding: 0 2.5rem;
+		}
+		padding: 0;
+	}
+	.ConnectWithDiv {
+		.Cards {
+			.CardItem {
+				width: 98%;
+				margin: 0 0 2rem .7rem;
+			}
+			flex-direction: column;
+			padding: 1rem;
+		}
+		padding: 0;
+	}
+	.FooterTop {
+		.List {
+			div {
+				margin-bottom: 1.5rem;
+			}
+			p {
+				padding: .5rem;
+				margin-bottom: 0;
+				font-size: 13px;
+			}
+			display: flex;
+			flex-direction: column;
+			text-align: left;
+		}
+		direction: rtl;
+	}
+}

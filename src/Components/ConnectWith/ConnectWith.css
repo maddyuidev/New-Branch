@@ -1,0 +1,90 @@
+.ConnectWithDiv {
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 80px;
+}
+
+.Cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.CardItem {
+    width: 25%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 10px;
+}
+
+.CardItem img {
+    width: 25px;
+}
+
+.CardItem .head {
+    font-size: 18px;
+    font-family: 'Lasiver-Medium';
+    color: #1D2F28;
+    margin-bottom: 20px;
+}
+
+.CardItem .content {
+    font-size: 18px;
+    font-family: 'Inter';
+    color: #1D2F28;
+    line-height: 30px;
+    height: 160px;
+}
+
+.CardItem .footer {
+    font-size: 18px;
+    font-family: 'Inter';
+    color: #1D2F28;
+    margin-bottom: 20px;
+}
+
+.CardItem button {
+    background-color: #007737;
+    border: unset;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media(max-width:600px) {
+    .ConnectWith .title1{
+        padding: 0 2.5rem;
+    }
+    .ConnectWithDiv .Cards .CardItem{
+        width: 98%;
+        margin:0 0 2rem .7rem;
+        
+    }
+    .ConnectWithDiv .Cards{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .ConnectWithDiv , .ConnectWith{
+        padding: 0;
+    }
+    .FooterTop .List div{
+        margin-bottom: 1.5rem;
+    }
+    .FooterTop .List p{
+        padding: .5rem;
+        margin-bottom: 0;
+        font-size: 13px;
+    }
+    .FooterTop .List{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .FooterTop{
+        direction: rtl;
+    }
+}
