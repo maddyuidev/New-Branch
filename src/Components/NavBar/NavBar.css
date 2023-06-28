@@ -153,7 +153,18 @@
   .navbar-collapse {
     position: absolute;
     top: 5.6rem;
-    right: 4rem;
+    right: 3.4rem;
   }
+  li.nav-item {
+    background-color: green;
+    padding: 1rem 4rem;
+  }
+
+  li.nav-item a{
+    color: black;
+  }
+    li.nav-item:hover {
+      background-color: lightgreen;
+    }
   
 }
