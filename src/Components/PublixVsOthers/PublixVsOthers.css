@@ -82,10 +82,10 @@
 }
 
 .contentBody p{
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #1D2F28;
     margin: 0px;
-    padding: 18px 0px;
+    padding: 1.1rem 0px 2.8rem;;
 }
 .box1 .contentBody p{
     color: #fff;
@@ -99,6 +99,8 @@
 }
 .contentBody p:not(:nth-child(6)){
     border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    width: 100%;
+    line-height: 18px;
 }
 .contentBody .bold{
     font-size: 18px;
@@ -180,6 +182,7 @@
     .contentBody p.nonFlex .blockEl{
         display: block;
         margin-top: 1rem;
+        line-height: 2.5rem;
     }
     .contentBody p span.label{
         font-size: 1.3rem;
